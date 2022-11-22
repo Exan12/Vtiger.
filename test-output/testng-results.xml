@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[- - - DataBase Connected Succesfully - - -]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Suite File was Started]]>
+    </line>
+    <line>
+      <![CDATA[ - - - chrome Has Launched Succesfully - - - ]]>
+    </line>
+    <line>
+      <![CDATA[ - - - Logged Into The Application Succesfully - - - ]]>
+    </line>
+    <line>
+      <![CDATA[ - - - Logged Out From The Application Succesfully - - - ]]>
+    </line>
+    <line>
+      <![CDATA[ - - - chrome Has Closed Succesfully - - - ]]>
+    </line>
+    <line>
+      <![CDATA[Execution of Suite File was Finished]]>
+    </line>
+    <line>
+      <![CDATA[- - - DataBase Closed Succesfully - - - ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-22T07:48:32 IST" name="Default suite" finished-at="2022-11-22T07:52:41 IST" duration-ms="249456">
+    <groups>
+    </groups>
+    <test started-at="2022-11-22T07:48:32 IST" name="Default test" finished-at="2022-11-22T07:52:41 IST" duration-ms="249456">
+      <class name="Vtiger.ProductsModule.CreateProductWithVendorPomTest">
+        <test-method is-config="true" signature="bsConfigration()[pri:0, instance:Vtiger.ProductsModule.CreateProductWithVendorPomTest@36902638]" started-at="2022-11-22T07:48:32 IST" name="bsConfigration" finished-at="2022-11-22T07:48:32 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[- - - DataBase Connected Succesfully - - -]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsConfigration -->
+        <test-method is-config="true" signature="bcConfigration()[pri:0, instance:Vtiger.ProductsModule.CreateProductWithVendorPomTest@36902638]" started-at="2022-11-22T07:48:32 IST" name="bcConfigration" finished-at="2022-11-22T07:49:54 IST" duration-ms="81787" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ - - - chrome Has Launched Succesfully - - - ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcConfigration -->
+        <test-method is-config="true" signature="bmConfigration()[pri:0, instance:Vtiger.ProductsModule.CreateProductWithVendorPomTest@36902638]" started-at="2022-11-22T07:49:54 IST" name="bmConfigration" finished-at="2022-11-22T07:51:22 IST" duration-ms="87218" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ - - - Logged Into The Application Succesfully - - - ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmConfigration -->
+        <test-method signature="createProductWithVendorPomTest()[pri:0, instance:Vtiger.ProductsModule.CreateProductWithVendorPomTest@36902638]" started-at="2022-11-22T07:51:22 IST" name="createProductWithVendorPomTest" finished-at="2022-11-22T07:52:36 IST" duration-ms="74599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductWithVendorPomTest -->
+        <test-method is-config="true" signature="amConfigration()[pri:0, instance:Vtiger.ProductsModule.CreateProductWithVendorPomTest@36902638]" started-at="2022-11-22T07:52:36 IST" name="amConfigration" finished-at="2022-11-22T07:52:40 IST" duration-ms="4319" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ - - - Logged Out From The Application Succesfully - - - ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amConfigration -->
+        <test-method is-config="true" signature="acConfigration()[pri:0, instance:Vtiger.ProductsModule.CreateProductWithVendorPomTest@36902638]" started-at="2022-11-22T07:52:40 IST" name="acConfigration" finished-at="2022-11-22T07:52:41 IST" duration-ms="884" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ - - - chrome Has Closed Succesfully - - - ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- acConfigration -->
+        <test-method is-config="true" signature="asConfigration()[pri:0, instance:Vtiger.ProductsModule.CreateProductWithVendorPomTest@36902638]" started-at="2022-11-22T07:52:42 IST" name="asConfigration" finished-at="2022-11-22T07:52:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[- - - DataBase Closed Succesfully - - - ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asConfigration -->
+      </class> <!-- Vtiger.ProductsModule.CreateProductWithVendorPomTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
