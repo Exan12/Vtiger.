@@ -24,7 +24,7 @@ import Vtiger.ObjectRepository.OrganizationPage;
 @Listeners(Vtiger.GenericLibraries.ListenersImplementationLibrary.class)
 public class CreateContactWithOrganizationTest extends BaseClass {
 
-	@Test(groups = "regressionSuite")
+	@Test(groups = {"smokeSuite","regressionSuite"})
 	public void createContactWithOrganizationTest() throws Throwable, IOException
 	{
 		String ORGNAME = eLib.readDataFromExcel("Organization", 1, 2)+jLib.getRandomNumber();
