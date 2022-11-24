@@ -11,7 +11,7 @@ import Vtiger.ObjectRepository.OrganizationPage;
 
 public class CreateOrganizationTest extends BaseClass{
 
-	@Test
+	@Test(groups = "regressionSuite")
 	public void createOrganizationTest()
 	{
 		// Step - 1 : Click On the Organization Link
