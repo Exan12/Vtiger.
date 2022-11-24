@@ -3,17 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Vtiger.ProductsModule.CreateProductWithVendorPomTest">
+      <class name="CalenderPopUp.HandlingAnyDateInDomTest">
         <methods>
-          <include name="bsConfigration"/>
-          <include name="bcConfigration"/>
-          <include name="asConfigration"/>
-          <include name="acConfigration"/>
-          <include name="bmConfigration"/>
-          <include name="amConfigration"/>
-          <include name="createProductWithVendorPomTest"/>
+          <include name="handlingAnyDateInDomTest"/>
         </methods>
-      </class> <!-- Vtiger.ProductsModule.CreateProductWithVendorPomTest -->
+      </class> <!-- CalenderPopUp.HandlingAnyDateInDomTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
