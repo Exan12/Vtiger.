@@ -2,6 +2,7 @@ package Vtiger.GenericLibraries;
 
 import org.openqa.selenium.WebDriver;
 
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Reporter;
@@ -12,9 +13,9 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.BeforeTest;
+//import org.testng.annotations.BeforeTest;
+//import org.testng.annotations.Parameters;
+//import org.testng.annotations.BeforeTest;
 
 import Vtiger.ObjectRepository.HomePage;
 import Vtiger.ObjectRepository.LoginPage;
@@ -92,7 +93,7 @@ public class BaseClass {
 	}
 
 	@AfterTest
-	//@AfterClass(groups = {"smokeSuite","regressionSuite"})
+	@AfterClass(groups = {"smokeSuite","regressionSuite"})
 	public void acConfigration() throws Throwable
 	{
 		String BROWSER = pLib.getpropertyfile("browser");
