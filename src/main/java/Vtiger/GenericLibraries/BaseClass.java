@@ -41,9 +41,9 @@ public class BaseClass {
 	}
 
 	//@Parameters("browser")
-	@BeforeTest
+	//@BeforeTest
 	
-	//@BeforeClass(groups = {"smokeSuite","regressionSuite"})
+	@BeforeClass(groups = {"smokeSuite","regressionSuite"})
 	public void bcConfigration() throws Throwable
 	{
 		String BROWSER = pLib.getpropertyfile("browser");
