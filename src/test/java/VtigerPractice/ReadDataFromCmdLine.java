@@ -12,6 +12,7 @@ public class ReadDataFromCmdLine {
 		String USERNAME = System.getProperty("username");
 		String PASSWORD = System.getProperty("password");
 		String NAME = System.getProperty("name");
+		String GENDER = System.getProperty("gender");
 		
 		System.out.println(BROWSER);
 		System.out.println(URL);
