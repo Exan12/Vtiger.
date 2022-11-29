@@ -1,151 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="8" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[- - - DataBase Connected Succesfully - - -]]>
-    </line>
-    <line>
-      <![CDATA[Execution of Suite File was Started]]>
-    </line>
-    <line>
-      <![CDATA[ - - - chrome Has Launched Succesfully - - - ]]>
-    </line>
-    <line>
-      <![CDATA[ - - - Logged Into The Application Succesfully - - - ]]>
-    </line>
-    <line>
-      <![CDATA[Demo Test]]>
-    </line>
-    <line>
-      <![CDATA[ - - - Logged Out From The Application Succesfully - - - ]]>
-    </line>
-    <line>
-      <![CDATA[ - - - Logged Into The Application Succesfully - - - ]]>
-    </line>
-    <line>
-      <![CDATA[ - - - Logged Out From The Application Succesfully - - - ]]>
-    </line>
-    <line>
-      <![CDATA[ - - - chrome Has Closed Succesfully - - - ]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-11-24T12:55:04 IST" name="Suite" finished-at="2022-11-24T12:56:15 IST" duration-ms="71025">
+  <suite started-at="2022-11-29T15:33:19 IST" name="Suite" finished-at="2022-11-29T15:35:13 IST" duration-ms="114924">
     <groups>
-      <group name="smokeSuite">
-        <method signature="CreateContactTest.CreateContactDemoTest()[pri:0, instance:Vtiger.ContactsModule.CreateContactTest@67c27493]" name="CreateContactDemoTest" class="Vtiger.ContactsModule.CreateContactTest"/>
-        <method signature="CreateContactTest.createContactTest()[pri:0, instance:Vtiger.ContactsModule.CreateContactTest@67c27493]" name="createContactTest" class="Vtiger.ContactsModule.CreateContactTest"/>
-      </group> <!-- smokeSuite -->
-      <group name="regressionSuite">
-        <method signature="CreateContactTest.CreateContactDemoTest()[pri:0, instance:Vtiger.ContactsModule.CreateContactTest@67c27493]" name="CreateContactDemoTest" class="Vtiger.ContactsModule.CreateContactTest"/>
-      </group> <!-- regressionSuite -->
     </groups>
-    <test started-at="2022-11-24T12:55:04 IST" name="Test" finished-at="2022-11-24T12:56:15 IST" duration-ms="71025">
-      <class name="Vtiger.ContactsModule.CreateContactTest">
-        <test-method is-config="true" signature="bcConfigration()[pri:0, instance:Vtiger.ContactsModule.CreateContactTest@67c27493]" started-at="2022-11-24T12:55:05 IST" name="bcConfigration" finished-at="2022-11-24T12:55:21 IST" duration-ms="16208" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ - - - chrome Has Launched Succesfully - - - ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- bcConfigration -->
-        <test-method is-config="true" signature="bmConfigration()[pri:0, instance:Vtiger.ContactsModule.CreateContactTest@67c27493]" started-at="2022-11-24T12:55:21 IST" name="bmConfigration" finished-at="2022-11-24T12:55:28 IST" duration-ms="6472" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ - - - Logged Into The Application Succesfully - - - ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- bmConfigration -->
-        <test-method signature="CreateContactDemoTest()[pri:0, instance:Vtiger.ContactsModule.CreateContactTest@67c27493]" started-at="2022-11-24T12:55:28 IST" name="CreateContactDemoTest" finished-at="2022-11-24T12:55:28 IST" duration-ms="71" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Demo Test]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CreateContactDemoTest -->
-        <test-method is-config="true" signature="amConfigration()[pri:0, instance:Vtiger.ContactsModule.CreateContactTest@67c27493]" started-at="2022-11-24T12:55:28 IST" name="amConfigration" finished-at="2022-11-24T12:55:38 IST" duration-ms="10737" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ - - - Logged Out From The Application Succesfully - - - ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- amConfigration -->
-        <test-method is-config="true" signature="bmConfigration()[pri:0, instance:Vtiger.ContactsModule.CreateContactTest@67c27493]" started-at="2022-11-24T12:55:38 IST" name="bmConfigration" finished-at="2022-11-24T12:55:42 IST" duration-ms="3382" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ - - - Logged Into The Application Succesfully - - - ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- bmConfigration -->
-        <test-method signature="createContactTest()[pri:0, instance:Vtiger.ContactsModule.CreateContactTest@67c27493]" started-at="2022-11-24T12:55:42 IST" name="createContactTest" finished-at="2022-11-24T12:56:10 IST" duration-ms="28663" status="PASS">
+    <test started-at="2022-11-29T15:33:19 IST" name="Test" finished-at="2022-11-29T15:35:13 IST" duration-ms="114924">
+      <class name="DynamicWebTable.CaptureOrganizationNames">
+        <test-method signature="captureOrganizationNames()[pri:0, instance:DynamicWebTable.CaptureOrganizationNames@8dbdac1]" started-at="2022-11-29T15:33:58 IST" name="captureOrganizationNames" finished-at="2022-11-29T15:34:21 IST" duration-ms="22888" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createContactTest -->
-        <test-method is-config="true" signature="amConfigration()[pri:0, instance:Vtiger.ContactsModule.CreateContactTest@67c27493]" started-at="2022-11-24T12:56:10 IST" name="amConfigration" finished-at="2022-11-24T12:56:13 IST" duration-ms="2840" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ - - - Logged Out From The Application Succesfully - - - ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- amConfigration -->
-        <test-method is-config="true" signature="acConfigration()[pri:0, instance:Vtiger.ContactsModule.CreateContactTest@67c27493]" started-at="2022-11-24T12:56:13 IST" name="acConfigration" finished-at="2022-11-24T12:56:15 IST" duration-ms="1322" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ - - - chrome Has Closed Succesfully - - - ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- acConfigration -->
-      </class> <!-- Vtiger.ContactsModule.CreateContactTest -->
-      <class name="Vtiger.ContactsModule.CreateContactWithOrganizationTest">
-        <test-method is-config="true" signature="bsConfigration()[pri:0, instance:Vtiger.ContactsModule.CreateContactWithOrganizationTest@4ec4f3a0]" started-at="2022-11-24T12:55:04 IST" name="bsConfigration" finished-at="2022-11-24T12:55:04 IST" duration-ms="23" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[- - - DataBase Connected Succesfully - - -]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- bsConfigration -->
-        <test-method is-config="true" signature="acConfigration()[pri:0, instance:Vtiger.ContactsModule.CreateContactWithOrganizationTest@4ec4f3a0]" started-at="2022-11-24T12:56:15 IST" name="acConfigration" finished-at="2022-11-24T12:56:15 IST" duration-ms="3" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
-at Vtiger.GenericLibraries.BaseClass.acConfigration(BaseClass.java:100)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.afterRun(TestRunner.java:877)
-at org.testng.TestRunner.run(TestRunner.java:599)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- captureOrganizationNames -->
+      </class> <!-- DynamicWebTable.CaptureOrganizationNames -->
+      <class name="DynamicWebTable.DeleteFourthCheckBox">
+        <test-method signature="deleteFourthheckBox()[pri:0, instance:DynamicWebTable.DeleteFourthCheckBox@6e20b53a]" started-at="2022-11-29T15:34:21 IST" name="deleteFourthheckBox" finished-at="2022-11-29T15:34:50 IST" duration-ms="29223" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- acConfigration -->
-        <test-method is-config="true" signature="asConfigration()[pri:0, instance:Vtiger.ContactsModule.CreateContactWithOrganizationTest@4ec4f3a0]" started-at="2022-11-24T12:56:15 IST" name="asConfigration" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1669274775814" status="SKIP">
+        </test-method> <!-- deleteFourthheckBox -->
+      </class> <!-- DynamicWebTable.DeleteFourthCheckBox -->
+      <class name="DynamicWebTable.FifthCheckBox">
+        <test-method signature="fifthCheckbox()[pri:0, instance:DynamicWebTable.FifthCheckBox@795cd85e]" started-at="2022-11-29T15:33:19 IST" name="fifthCheckbox" finished-at="2022-11-29T15:33:58 IST" duration-ms="39129" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- asConfigration -->
-      </class> <!-- Vtiger.ContactsModule.CreateContactWithOrganizationTest -->
+        </test-method> <!-- fifthCheckbox -->
+      </class> <!-- DynamicWebTable.FifthCheckBox -->
+      <class name="DynamicWebTable.AllCheckBoxes">
+        <test-method signature="allCheckBoxes()[pri:0, instance:DynamicWebTable.AllCheckBoxes@71809907]" started-at="2022-11-29T15:34:50 IST" name="allCheckBoxes" finished-at="2022-11-29T15:35:13 IST" duration-ms="23568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allCheckBoxes -->
+      </class> <!-- DynamicWebTable.AllCheckBoxes -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
